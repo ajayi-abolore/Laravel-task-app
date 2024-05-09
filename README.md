@@ -9,15 +9,15 @@ AJAX
 TOASTJS and e.t.c
 
 ## Installation and guidelines 
-Step 1: download the two folders and one file
-Step 2: open your appy_backend folder and launch your php artisan migrate code
-Step3: import the sql file “appy_tasks_db” into the created dataset; this will enable some settings after you have migrated your database
-Step4: open your  vuejs  appy_frontend folder , then open .env file to change somethings
+Step 1: download the two folders and one file<br>
+Step 2: open your appy_backend folder and launch your php artisan migrate code<br>
+Step3: import the sql file “appy_tasks_db” into the created dataset; this will enable some settings after you have migrated your database<br>
+Step4: open your  vuejs  appy_frontend folder , then open .env file to change somethings<br>
 Step5 : VUE_APP_API_URL = "http://localhost:8282/"
 VUE_APP_API_PATH = "http://localhost:8282/api/"
-    please change the url to your backend url endpoint; so that the front end can consume it
-STEP 6. goto auth.js in your frontend folder "\appy_frontend\src\store\auth.js" on line 5 you will seee |||| axios.defaults.baseURL =  'http://localhost:8282/api/';
-step7:Please change that to your endpoint url.
+    please change the url to your backend url endpoint; so that the front end can consume it<br>
+STEP 6. goto auth.js in your frontend folder "\appy_frontend\src\store\auth.js" on line 5 you will seee |||| axios.defaults.baseURL =  'http://localhost:8282/api/';<br>
+step7:Please change that to your endpoint url.<br>
 Thank you
 
 # Addition
