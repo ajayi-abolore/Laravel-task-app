@@ -18,7 +18,7 @@ VUE_APP_API_PATH = "http://localhost:8282/api/"
     please change the url to your backend url endpoint; so that the front end can consume it<br>
 STEP 6. goto auth.js in your frontend folder "\appy_frontend\src\store\auth.js" on line 5 you will seee |||| axios.defaults.baseURL =  'http://localhost:8282/api/';<br>
 step7:Please change that to your endpoint url.<br>
-step7:To run it, npm run serve not npm run dev
+step7:To run it, <b>npm run serve</b> not npm run dev <br>
 Thank you
 
 # Addition
